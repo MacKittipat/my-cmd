@@ -1,10 +1,10 @@
 # my-cmd
 
-## Complete remove package
+## Completely remove package
 
 ```bash
 sudo apt-get purge ${package}
-sudo apt-get --purge ${package}
+sudo apt-get --purge remove ${package}
 ```
 
 Ref : http://askubuntu.com/a/151943
