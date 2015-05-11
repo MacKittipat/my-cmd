@@ -2,7 +2,7 @@
 
 ## Completely remove package
 
-```bash
+```
 sudo apt-get purge ${package}
 sudo apt-get --purge remove ${package}
 ```
@@ -20,3 +20,14 @@ Remove from the following location
 ```
 
 Ref : http://askubuntu.com/a/71245
+
+## Find permission number
+
+```
+stat -c "%a %n" *
+stat -c %a ${file_path}
+```
+
+Ref : 
+- http://askubuntu.com/a/152003
+- http://askubuntu.com/a/29548
