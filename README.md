@@ -31,3 +31,11 @@ stat -c %a ${file_path}
 Ref : 
 - http://askubuntu.com/a/152003
 - http://askubuntu.com/a/29548
+
+## Scroll MySQL table
+
+```
+ mysql -uroot -p --pager="less -S" ${db}
+```
+
+Ref : http://techmonks.net/horizontal-scrolling-for-mysql-queries-in-linux/
