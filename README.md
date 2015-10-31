@@ -39,3 +39,15 @@ Ref :
 ```
 
 Ref : http://techmonks.net/horizontal-scrolling-for-mysql-queries-in-linux/
+
+## Set executable java path
+
+```
+sudo update-alternatives --install "/usr/bin/java" "java" "${PATH}/jdk/bin/java" 1
+sudo update-alternatives --install "/usr/bin/javac" "javac" "${PATH}/jdk/bin/javac" 1
+sudo update-alternatives --install "/usr/bin/javaws" "javaws" "${PATH}/jdk/bin/javaws" 1
+```
+
+Ref : 
+- http://askubuntu.com/questions/315646/update-java-alternatives-vs-update-alternatives-config-java
+- http://askubuntu.com/questions/121654/how-to-set-default-java-version
